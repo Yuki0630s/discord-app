@@ -1,21 +1,28 @@
 import React from 'react';
 import "./Sidebar.scss";
 
-const Sidebar = () => {
+function Sidebar() {
   return (
-    <div className="sidebar"> 
+    <div className="sidebar">
 
-        {/*sidebarLeft*/}
-        <div className='sidebarLeft'>
-        
-        </div> 
-        
-        {/*sidebarRight*/}
-        <div className='sidebarRight'>
-
+      {/*sidebarLeft*/}
+      <div className='sidebarLeft'>
+        <div className='serberIcon'>
+          <img src='./favicon.ico' alt='' />
         </div>
+        <div className='serberIcon'>
+          <img src='./favicon.ico' alt='' />
+        </div>
+
+
+      </div>
+
+      {/*sidebarRight*/}
+      <div className='sidebarRight'>
+
+      </div>
     </div>
-  )
+  );
 }
 
 export default Sidebar
