@@ -20,17 +20,18 @@ function Sidebar() {
       {/*sidebarRight*/}
       <div className='sidebarRight'>
         <div className='sidebarTop'>
-          <h3>discord</h3>
+          <h3>Discord</h3>
           <ExpandMoreIcon />
-          <div className='sidebarChannels'>
-            <div className='sidebarChannelHeader'>
-              <div className='sidebarHeader'>
-                <ExpandMoreIcon />
-                  <h4>プログラミングチャネル</h4>
-              </div>
-              <AddIcon />
+        </div>
+        <div className='sidebarChannels'>
+          <div className='sidebarChannelsHeader'>
+            <div className='sidebarHeader'>
+              <ExpandMoreIcon />
+                <h4>プログラミングチャネル</h4>
             </div>
-          </div>
+            <AddIcon className='sidebarAddIcon' />
+            </div>
+            
         </div>
       </div>
     </div>

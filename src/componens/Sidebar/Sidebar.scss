@@ -34,21 +34,35 @@
     }
 
     .sidebarRight {
+        display: flex;
+        flex-direction: column;
         background-color: #2b2d33;
         width: 300px;
+        position: relative;
+    
 
-        .sidebarTop{
+        .sidebarTop {
             display: flex;
-            color: #ffffff;
+            justify-content: space-between;
             align-items: center;
-            justify-self: space-between;
             padding: 20px;
-        }
-        .sidebarChannels{
-            padding:13px;
-            .sidevbarChannelsHeader{
-                color: black;
+            color: #ffffff;
+          }
+      
+          .sidebarChannels {
+            padding: 13px;
+      
+            .sidebarChannelsHeader {
+              color: white;
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 5px;
+      
+              .sidebarHeader {
                 display: flex;
+              }
+
+
             }
         }
     }
